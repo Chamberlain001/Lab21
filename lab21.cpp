@@ -1,6 +1,14 @@
-// Please include header (lab21.h) here.
+#include<iostream>
+#include<string>
+#include<ctime>
+#include<cstdlib>
+#include<iomanip>
+#include"lab21.h"
+
+using namespace std;
 
 int main(){
+	system("cls");
 	srand(time(0));
 	Unit hero,mons;
 	hero.create("Hero");
