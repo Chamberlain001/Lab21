@@ -39,6 +39,7 @@ int main(){
 		
 		if(player_action == 'A') p = hero.attack(mons); 
 		if(monster_action == 'A') m = mons.attack(hero); 
+		system("cls");
 		
 		if(hero.isDead()){
 			drawScene(player_action,p,monster_action,m);
